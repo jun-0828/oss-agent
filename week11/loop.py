@@ -12,7 +12,7 @@ from secret import GEMINI_API_KEY
 URL = ("https://generativelanguage.googleapis.com/"
        "v1beta/openai/chat/completions")
 MODEL = "gemini-3.5-flash-lite"
-MAX_TURNS = 2          # 반복 상한. 이 바퀴 수를 넘기면 멈춘다
+MAX_TURNS = 5          # 반복 상한. 이 바퀴 수를 넘기면 멈춘다
 
 # ---------- 도구 목록: 모델에게 보여 줄 설명 ----------
 TOOLS = [
