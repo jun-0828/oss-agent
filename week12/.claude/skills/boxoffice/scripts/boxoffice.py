@@ -2,7 +2,7 @@
 
 쓰는 법 (week12 폴더에서 실행):
     python .claude/skills/boxoffice/scripts/boxoffice.py rank 20261114
-    python .claude/skills/boxoffice/scripts/boxoffice.py audience 20261114 "영화 제목"
+    python .claude/skills/boxoffice/scripts/boxoffice.py audience 20261114
 
 키는 이 스킬 폴더에 두지 않는다. week12 폴더의 secret.py 를 tools.py 가 읽는다.
 """
