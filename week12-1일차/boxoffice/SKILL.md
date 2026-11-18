@@ -12,7 +12,7 @@ description: (영화진흥위원회 사이트의 일별 박스오피스를 조�
 week12 폴더에서 아래 명령을 실행한다. 날짜는 8자리(예: 20261114)로 쓴다.
 
 - 1위 영화 제목: (1위 영화 제목 : python .claude/skills/boxoffice/scriptsboxoffice.py rank 날짜)
-- 특정 영화의 관객 수: (관객 수 : python .claude/skills/boxoffice/scriptsboxoffice.py get_movie_audience(date, title) 관객 수)
+- 특정 영화의 관객 수: (관객 수 : python .claude/skills/boxoffice/scriptsboxoffice.py audience 관객 수)
 
 ## 지킬 것
 
